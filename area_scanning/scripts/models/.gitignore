@@ -1,0 +1,5 @@
+*.caffemodel
+*.prototxt
+*.prototxt.txt
+!.gitignore
+!README.md

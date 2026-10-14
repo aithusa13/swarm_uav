@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>object_detection</name>
+  <version>1.0.0</version>
+  <description>ArUco-based object detection mission: area scan with asynchronous marker detection, P-controlled centering, and GPS publication of the detected target.</description>
+
+  <maintainer email="user@example.com">User</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>rospy</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>mavros_msgs</build_depend>
+  <build_depend>cv_bridge</build_depend>
+
+  <exec_depend>rospy</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>mavros_msgs</exec_depend>
+  <exec_depend>cv_bridge</exec_depend>
+
+  <exec_depend>python3-opencv</exec_depend>
+</package>
